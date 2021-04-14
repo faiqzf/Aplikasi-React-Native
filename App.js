@@ -39,15 +39,7 @@ const Section = ({children, title}): Node => {
         ]}>
         {title}
       </Text>
-      <Text
-        style={[
-          styles.sectionDescription,
-          {
-            color: isDarkMode ? Colors.light : Colors.dark,
-          },
-        ]}>
-        {children}
-      </Text>
+    
     </View>
   );
 };
